@@ -17,7 +17,8 @@
 13. 군집 번호를 재매핑하는 mapping_dict 딕셔너리를 정의하고, 이를 사용하여 군집 번호를 재매핑합니다.
 14. sample_submission.csv라는 제출 예시 파일을 불러오고, 해당 파일의 category 열에 재매핑된 군집 번호를 저장합니다.
 15. 결과를 baseline_submit.csv 파일로 저장합니다.
-
+- 사실상 제가 한건 코랩에서 실행하는데 저장경로를 설정하고 sentence 라이브러리를 임포트하고 베이스코드를 돌린정도네요
+- 코드만 돌려도 거의 4~5시간 정도 걸리니 좀 빡센 대회군요 
 ```python
 import re
 import pandas as pd
