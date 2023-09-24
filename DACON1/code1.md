@@ -96,5 +96,5 @@ df['mapping'] = df['kmeans_cluster'].apply(lambda x: mapping_dict[x])
 sample = pd.read_csv('/content/gdrive/My Drive/DACON1/sample_submission.csv')
 sample['category'] = df['mapping'].values
 sample['category'].head()
-sample.to_csv('baseline_submit.csv', index=False)
+sample.to_csv('/content/gdrive/My Drive/DACON1/baseline_submit.csv', index=False)
 ```
